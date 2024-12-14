@@ -16,6 +16,13 @@ body {
     text-align: center;
 }
 
+/* Add responsive margins for small screens */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+    }
+}
+
 #question {
     color: #212121; /* Dark Gray for readability */
     font-size: 1.5em;
