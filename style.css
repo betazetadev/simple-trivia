@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(to bottom, #00008b, #add8e6); /* Deep Blue to Light Blue gradient */
     display: flex;
     justify-content: center;
     align-items: center;
