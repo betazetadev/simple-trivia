@@ -26,17 +26,28 @@ body {
 }
 
 .answer {
-    background: #007bff;
+    background: #4CAF50; /* Primary Green */
     color: white;
     border: none;
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
     border-radius: 5px;
+    transition: background 0.3s, box-shadow 0.3s, border 0.3s;
 }
 
 .answer:hover {
-    background: #0056b3;
+    background: #66BB6A; /* Lighter Green */
+}
+
+.answer.correct:hover {
+    background: #66BB6A; /* Lighter Green */
+}
+
+.answer:focus, .answer:active {
+    outline: none;
+    box-shadow: 0 0 10px #A5D6A7; /* Soft Green Glow */
+    border: 1px solid #A5D6A7;
 }
 
 .secondary-text {
