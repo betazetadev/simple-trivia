@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 button.textContent = answer;
                 button.addEventListener('click', () => {
                     if (answer === questionData.correct) {
+                        button.classList.add('correct');
                         alert('Correct!');
                     } else {
                         alert('Wrong answer. Try again!');
@@ -35,4 +36,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
         showQuestion(questions[currentQuestionIndex]);
     }
-});
