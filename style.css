@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+    animation: fadeIn 1s ease-in-out;
     background: white;
     padding: 20px;
     border-radius: 8px;
@@ -60,4 +61,14 @@ body {
 .secondary-text {
     color: #757575; /* Medium Gray for secondary text */
     font-size: 1em;
+}
+
+/* Add this to your existing CSS file */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
